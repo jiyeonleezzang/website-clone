@@ -31,7 +31,7 @@ header .content h1 .logo {
     top: 20px;
 }
 .logo {
-    background-image: url('./images/logo-white_new2.png');
+    background-image: url('../images/logo-white_new2.png');
     width: 140px;
     height: 47px;
     display: block;
@@ -78,18 +78,18 @@ header .icon {
     background-color: transparent;
 }
 header .menu {
-    background-image: url('./images/icon/ico-sitemap-white.png');
+    background-image: url('../images/icon/ico-sitemap-white.png');
 }
 header .search {
-    background-image: url('./images/icon/ico-search-white.png');
+    background-image: url('../images/icon/ico-search-white.png');
     left : 40px
 }
 header .calander {
-    background-image: url('./images/icon/ico-schedule-white.png');
+    background-image: url('../images/icon/ico-schedule-white.png');
     right:40px
 }
 header .mypage {
-    background-image: url('./images/icon/ico-mymega-white.png');
+    background-image: url('../images/icon/ico-mymega-white.png');
     right:0
 }
 /* section */
@@ -116,7 +116,7 @@ footer .top-content .company_menu ul li{
     margin-right: 10px;
 }
 .company_info .logo {
-    background-image: url('./images/logo-opacity_new2.png');
+    background-image: url('../images/logo-opacity_new2.png');
     margin-right: 20px;
     width: 150px;
     height: 50px;
@@ -132,7 +132,7 @@ footer .top-content .company_menu ul li{
     line-height: 2.5em;
 }
 .icon-search{
-    background-image: url('./images/icon/ico-footer-search.png');
+    background-image: url('../images/icon/ico-footer-search.png');
     width: 15px;
     height: 15px;
 }
@@ -157,16 +157,16 @@ footer .top-content .company_menu ul li{
 }
 
 .youtube_icon{
-    background-image: url('./images/icon/ico-youtubeN.png');    
+    background-image: url('../images/icon/ico-youtubeN.png');    
 }
 .instagram_icon{
-    background-image: url('./images/icon/ico-instagramN.png');    
+    background-image: url('../images/icon/ico-instagramN.png');    
 }
 .facebook_icon{
-    background-image: url('./images/icon/ico-facebookN.png');    
+    background-image: url('../images/icon/ico-facebookN.png');    
 }
 .twitter_icon{
-    background-image: url('./images/icon/ico-twitterN.png');    
+    background-image: url('../images/icon/ico-twitterN.png');    
 }
 /* info_link */
 .info_link {
@@ -183,22 +183,22 @@ footer .top-content .company_menu ul li{
     background-repeat: no-repeat;
 }
 .info_link ul li:nth-child(1) a i{
-    background-image: url('./images/icon/ico-main-customer.png');
+    background-image: url('../images/icon/ico-main-customer.png');
 }
 .info_link ul li:nth-child(2) a i{
-    background-image: url('./images/icon/ico-main-faq.png');
+    background-image: url('../images/icon/ico-main-faq.png');
 }
 .info_link ul li:nth-child(3) a i{
-    background-image: url('./images/icon/ico-main-qna.png');
+    background-image: url('../images/icon/ico-main-qna.png');
 }
 .info_link ul li:nth-child(4) a i{
-    background-image: url('./images/icon/ico-main-group.png');
+    background-image: url('../images/icon/ico-main-group.png');
 }
 .info_link ul li:nth-child(5) a i{
-    background-image: url('./images/icon/ico-main-lost.png');
+    background-image: url('../images/icon/ico-main-lost.png');
 }
 .info_link ul li:nth-child(6) a i{
-    background-image: url('./images/icon/ico-main-boutique.png');
+    background-image: url('../images/icon/ico-main-boutique.png');
 }
 /* notice */
 section.notice{
@@ -273,25 +273,25 @@ section.notice .notice_right {
     text-indent: -999px;
 }
 .swiper-slide:nth-child(1) a{
-    background-image: url('./images/bg-main-megainfo-dolby.png');
+    background-image: url('../images/bg-main-megainfo-dolby.png');
 }
 .swiper-slide:nth-child(2) a{
-    background-image: url('./images/bg-main-megainfo-dolby.png');
+    background-image: url('../images/bg-main-megainfo-dolby.png');
 }
 .swiper-slide:nth-child(3) a{
-    background-image: url('./images/bg-main-megainfo-dolby.png');
+    background-image: url('../images/bg-main-megainfo-dolby.png');
 }
 .swiper-slide:nth-child(4) a{
-    background-image: url('./images/bg-main-megainfo-dolby.png');
+    background-image: url('../images/bg-main-megainfo-dolby.png');
 }
 .swiper-slide:nth-child(5) a{
-    background-image: url('./images/bg-main-megainfo-dolby.png');
+    background-image: url('../images/bg-main-megainfo-dolby.png');
 }
 .swiper-slide:nth-child(6) a{
-    background-image: url('./images/bg-main-megainfo-dolby.png');
+    background-image: url('../images/bg-main-megainfo-dolby.png');
 }
 .swiper-slide:nth-child(7) a{
-    background-image: url('./images/bg-main-megainfo-dolby.png');
+    background-image: url('../images/bg-main-megainfo-dolby.png');
 }
 /* curation */
 .curation {
@@ -320,7 +320,7 @@ section.notice .notice_right {
     margin-right: 50px;
 }
 .curation_content .left .bage{
-    background-image: url('./images/icon/bg-bage-curation-classic.png');
+    background-image: url('../images/icon/bg-bage-curation-classic.png');
     background-repeat: no-repeat;
     width: 123px;
     height: 135px;
@@ -364,7 +364,7 @@ section.notice .notice_right {
     top: -5px;
     width: 35px;
     height: 38px;
-    background-image: url('./images/icon/bg-bage-curation-film-m.png');
+    background-image: url('../images/icon/bg-bage-curation-film-m.png');
 }
 .curation_content .right .image_list div img{
     border-radius: 10px;
@@ -386,19 +386,19 @@ section.notice .notice_right {
     padding: 60px 0 0 0;
 }
 .ad_content .ad_bottom ul a:nth-child(1){
-    background-image: url('./images/icon/ico-vip-main.png');
+    background-image: url('../images/icon/ico-vip-main.png');
 }
 .ad_content .ad_bottom ul a:nth-child(2){
-    background-image: url('./images/icon/ico-membership-main.png');
+    background-image: url('../images/icon/ico-membership-main.png');
 }
 .ad_content .ad_bottom ul a:nth-child(3){
-    background-image: url('./images/icon/ico-card-main.png');
+    background-image: url('../images/icon/ico-card-main.png');
 }
 .ad_content .ad_bottom ul a:nth-child(4){
-    background-image: url('./images/icon/ico-event-main.png');
+    background-image: url('../images/icon/ico-event-main.png');
 }
 .ad_content .ad_bottom ul a:nth-child(5){
-    background-image: url('./images/icon/ico-store-main.png');
+    background-image: url('../images/icon/ico-store-main.png');
 }
 /* movie_content */
 .movie_content {
@@ -414,7 +414,7 @@ section.notice .notice_right {
     height: 100%;
 }
 .movie_content .bg-pattern {
-    background: url('./images/bg-movie-detail-pattern.png') repeat 0 0;
+    background: url('../images/bg-movie-detail-pattern.png') repeat 0 0;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -467,7 +467,7 @@ section.notice .notice_right {
     height: 35px;
 }
 .movie_list li .button_list button i{
-    background-image: url('./images/icon/ico-heart-toggle-main.png');
+    background-image: url('../images/icon/ico-heart-toggle-main.png');
     display: inline-block;
     background-repeat: no-repeat;
     width: 17px;
@@ -531,18 +531,18 @@ section.notice .notice_right {
     display: block;
     width: 30px;
     height: 30px;
-    background-image: url('./images/icon/ico-search-white.png');
+    background-image: url('../images/icon/ico-search-white.png');
     background-repeat: no-repeat;
     
 }
 .movie_bottom ul li:nth-child(2) a i{
-    background-image: url('./images/icon/ico-schedule-main.png');   
+    background-image: url('../images/icon/ico-schedule-main.png');   
 }
 .movie_bottom ul li:nth-child(3) a i{
-    background-image: url('./images/icon/ico-boxoffice-main.png');   
+    background-image: url('../images/icon/ico-boxoffice-main.png');   
 }
 .movie_bottom ul li:nth-child(4) a i{
-    background-image: url('./images/icon/ico-quick-reserve-main.png');   
+    background-image: url('../images/icon/ico-quick-reserve-main.png');   
 }
 .mouse {
     display: inline-block;
