@@ -1,0 +1,566 @@
+
+/* header */
+header {
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    height: 90px;
+    z-index: 100;
+
+}
+header .content {
+    color: white;
+    width: 1100px;
+    height: 90px;
+    position: absolute;
+    right: calc(50% - 550px);
+}
+.left_link{
+    display: inline;
+    position: absolute;
+    left: 50px;
+}
+.right_link{
+    display: inline;
+    position: absolute;
+    right: 50px;
+}
+header .content h1 .logo {
+    position: absolute;
+    right: calc(50% - 90px);
+    top: 20px;
+}
+.logo {
+    background-image: url('./images/logo-white_new2.png');
+    width: 140px;
+    height: 47px;
+    display: block;
+}
+.header_menu_top div{
+    top:15px;
+}
+.header_menu_top a{
+    margin-right: 20px;
+}
+.header_menu_bottom {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+}
+.header_menu_bottom .left_link ul{
+    display: inline;
+    margin-left: 90px;
+
+}
+.header_menu_bottom .right_link ul{
+    display: inline;
+    margin-right: 80px;
+
+}
+.header_menu_bottom ul li{
+    margin-right: 20px;
+    display: inline;
+}
+.icon_list {
+    display: inline;
+    position: absolute;
+    top: -5px;
+}
+header .icon {
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    line-height: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+header .menu {
+    background-image: url('./images/icon/ico-sitemap-white.png');
+}
+header .search {
+    background-image: url('./images/icon/ico-search-white.png');
+    left : 40px
+}
+header .calander {
+    background-image: url('./images/icon/ico-schedule-white.png');
+    right:40px
+}
+header .mypage {
+    background-image: url('./images/icon/ico-mymega-white.png');
+    right:0
+}
+/* section */
+.container{
+    /* background: url('./images/bg-movie-detail-pattern.png') repeat 0 0; */
+}
+/* footer */
+footer{
+    background-color: #f8f8fa;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+}
+footer .content{
+    width: 1100px;
+    position: absolute;
+    right: calc(50% - 550px);
+}
+.top-content {
+    padding: 20px 0;
+}
+footer .top-content .company_menu ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.company_info .logo {
+    background-image: url('./images/logo-opacity_new2.png');
+    margin-right: 20px;
+    width: 150px;
+    height: 50px;
+}
+.footer-search {
+    display: inline;
+    width: 106px;
+    height: 30px;
+    border: 1px solid #d8d9db;
+    border-radius: 30px;
+    font-size: .8667em;
+    text-align: center;
+    line-height: 2.5em;
+}
+.icon-search{
+    background-image: url('./images/icon/ico-footer-search.png');
+    width: 15px;
+    height: 15px;
+}
+.footer-search i{
+    overflow: hidden;
+    display: inline-block;
+    margin: -1px 0 0 0;
+    padding: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.share_icon{
+    width: 150px;
+}
+
+.share_icon a i{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.youtube_icon{
+    background-image: url('./images/icon/ico-youtubeN.png');    
+}
+.instagram_icon{
+    background-image: url('./images/icon/ico-instagramN.png');    
+}
+.facebook_icon{
+    background-image: url('./images/icon/ico-facebookN.png');    
+}
+.twitter_icon{
+    background-image: url('./images/icon/ico-twitterN.png');    
+}
+/* info_link */
+.info_link {
+    padding: 60px 0;
+}
+.info_link a i{
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.info_link ul li:nth-child(1) a i{
+    background-image: url('./images/icon/ico-main-customer.png');
+}
+.info_link ul li:nth-child(2) a i{
+    background-image: url('./images/icon/ico-main-faq.png');
+}
+.info_link ul li:nth-child(3) a i{
+    background-image: url('./images/icon/ico-main-qna.png');
+}
+.info_link ul li:nth-child(4) a i{
+    background-image: url('./images/icon/ico-main-group.png');
+}
+.info_link ul li:nth-child(5) a i{
+    background-image: url('./images/icon/ico-main-lost.png');
+}
+.info_link ul li:nth-child(6) a i{
+    background-image: url('./images/icon/ico-main-boutique.png');
+}
+/* notice */
+section.notice{
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+section.notice div span:nth-child(2){
+    color: #e2e2e2;
+    margin: 0 10px;
+}
+section.notice .notice_left {
+    position: absolute;
+    left: 50px;
+}
+section.notice .notice_right {
+    position: absolute;
+    right: 50px;
+}
+/* info_content */
+.info_content {
+    padding-bottom: 60px;
+    position: relative;
+}
+.info_content h2 {
+    display: block;
+    padding: 50px 0 38px 0;
+}
+.info_content .swiper {
+    display: block;
+    height: 170px;
+    position:relative; 
+}    
+.swiper-container {
+    width: 100%;
+    position:absolute; 
+    overflow:hidden;
+    left: 0;
+}
+.swiper-slide a{
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    display: block;
+    border-radius: 10px;
+}
+.swiper-button-group {
+    position: absolute;
+    margin: 0 auto;
+    top:60%;
+    width: 100%;
+}
+.swiper-button-prev {
+    position: absolute;
+    left: 50px !important;
+    width: 16px !important;
+    height: 30px !important;
+    background: url(https://img.megabox.co.kr/static/pc/images/main/btn-specialtheater-prev.png) no-repeat;
+    overflow: hidden;
+    text-indent: -999px;
+}
+.swiper-button-next {
+    position: absolute;
+    right: 50px !important;
+    width: 16px !important;
+    height: 30px !important;
+    background: url(https://img.megabox.co.kr/static/pc/images/main/btn-specialtheater-next.png) no-repeat;
+    overflow: hidden;
+    text-indent: -999px;
+}
+.swiper-slide:nth-child(1) a{
+    background-image: url('./images/bg-main-megainfo-dolby.png');
+}
+.swiper-slide:nth-child(2) a{
+    background-image: url('./images/bg-main-megainfo-dolby.png');
+}
+.swiper-slide:nth-child(3) a{
+    background-image: url('./images/bg-main-megainfo-dolby.png');
+}
+.swiper-slide:nth-child(4) a{
+    background-image: url('./images/bg-main-megainfo-dolby.png');
+}
+.swiper-slide:nth-child(5) a{
+    background-image: url('./images/bg-main-megainfo-dolby.png');
+}
+.swiper-slide:nth-child(6) a{
+    background-image: url('./images/bg-main-megainfo-dolby.png');
+}
+.swiper-slide:nth-child(7) a{
+    background-image: url('./images/bg-main-megainfo-dolby.png');
+}
+/* curation */
+.curation {
+    min-height: 840px;
+    background-color: #252451;
+}
+.curation_header {
+    height: 50px;
+    padding: 30px 0;
+}
+.curation_header h2 {
+    font-size: 2em;
+    color: #fff;
+    display: inline;
+    float: left;
+    line-height: 1.9;
+}
+.curation_header h4 {
+    display: inline;
+    position: relative;
+    float: right;
+    line-height: 3.5;
+}
+.curation_content .left{
+    display: inline;
+    margin-right: 50px;
+}
+.curation_content .left .bage{
+    background-image: url('./images/icon/bg-bage-curation-classic.png');
+    background-repeat: no-repeat;
+    width: 123px;
+    height: 135px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    
+}
+.curation_content .left div{
+    position: relative;
+    left: 10px;
+    top:10px
+}
+.curation_content .left div img{
+    border-radius: 10px;
+    width: 300px;
+    height: 430px;
+}
+.curation_content .left div .button_list button{
+    width: 48%;
+    height: 50px;
+}
+.curation_content .right h3{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #474681;
+}
+.curation_content .right p{
+    margin-top: 20px;
+}
+.curation_content .right .image_list{
+    margin-top: 15px;
+}
+.curation_content .right .image_list div{
+    position: relative;
+    width: 160px;
+}
+.curation_content .right .image_list div .bage{
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    width: 35px;
+    height: 38px;
+    background-image: url('./images/icon/bg-bage-curation-film-m.png');
+}
+.curation_content .right .image_list div img{
+    border-radius: 10px;
+}
+
+/* ad_content */
+
+.ad_content .ad_bottom {
+    background-color: #503396;
+}
+.ad_content .ad_bottom ul{
+    padding: 95px 0;
+}
+.ad_content .ad_bottom ul a{
+    font-size: 1.3em;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center 2px;
+    padding: 60px 0 0 0;
+}
+.ad_content .ad_bottom ul a:nth-child(1){
+    background-image: url('./images/icon/ico-vip-main.png');
+}
+.ad_content .ad_bottom ul a:nth-child(2){
+    background-image: url('./images/icon/ico-membership-main.png');
+}
+.ad_content .ad_bottom ul a:nth-child(3){
+    background-image: url('./images/icon/ico-card-main.png');
+}
+.ad_content .ad_bottom ul a:nth-child(4){
+    background-image: url('./images/icon/ico-event-main.png');
+}
+.ad_content .ad_bottom ul a:nth-child(5){
+    background-image: url('./images/icon/ico-store-main.png');
+}
+/* movie_content */
+.movie_content {
+    padding-bottom: 50px;
+    height: 840px;
+    position: relative;
+    background-color:#222
+}
+.movie_content .bg{
+    height: 840px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.movie_content .bg-pattern {
+    background: url('./images/bg-movie-detail-pattern.png') repeat 0 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.movie_content .bg-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(200px);
+}
+.movie_content .title{
+    padding-top: 60px;
+    position: relative;
+}
+.movie_content .title h2{
+    text-align: center;
+    position: absolute;
+    right: calc(50% - 60px);
+    border-bottom: 1px #aaa solid;
+    padding-bottom: 3px;
+
+}
+.movie_content .title h4 a{
+    text-align: center;
+    position: relative;
+    float: right;   
+}
+.movie_list {
+    position: relative;
+    margin-top: 50px !important;
+}
+.movie_list li {
+    position: relative;
+    margin: 0 10px;
+}
+.movie_list li img{
+    border-radius: 5px;
+    width: 245px;
+    height: 352px;
+}
+.movie_list li .number{
+    font-style: italic;
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 15px;
+}
+.movie_list li .button_list button{
+    width: 100%;
+    height: 35px;
+}
+.movie_list li .button_list button i{
+    background-image: url('./images/icon/ico-heart-toggle-main.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 15px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.movie_list li .button_list button:nth-child(1){
+    flex-basis: 100px
+    
+}
+.movie_list li .button_list button:nth-child(2){
+    grid-row: 1;
+}
+.movie_bottom ul li{
+    width: 100%;
+    text-align: center;
+    border-right: 1px gray solid;
+    z-index: 1;
+}
+.movie_bottom ul li:last-child{
+    border-right: 0;
+}
+.movie_bottom ul li a{
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+.movie_bottom ul li a i{
+    display: inline-block;
+    width: 24px;
+    height: 26px;
+    margin-right: 8px;
+    vertical-align: middle;
+
+}
+.movie_bottom ul li:nth-child(1){
+    position: relative;
+}
+
+.movie_bottom ul li:nth-child(1) input{
+    background-color: transparent;
+    border:0;
+    border-bottom: 1px gray solid;
+    width: 170px;
+    height: 30px;
+
+}
+.movie_bottom ul li:nth-child(1) button{
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px gray solid;
+    top: 3px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+
+}
+.movie_bottom ul li:nth-child(1) button i{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url('./images/icon/ico-search-white.png');
+    background-repeat: no-repeat;
+    
+}
+.movie_bottom ul li:nth-child(2) a i{
+    background-image: url('./images/icon/ico-schedule-main.png');   
+}
+.movie_bottom ul li:nth-child(3) a i{
+    background-image: url('./images/icon/ico-boxoffice-main.png');   
+}
+.movie_bottom ul li:nth-child(4) a i{
+    background-image: url('./images/icon/ico-quick-reserve-main.png');   
+}
+.mouse {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    animation-name: mouse;
+    animation-duration: 1s;
+    animation-play-state: running;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite
+
+}
+@keyframes mouse {
+    from {
+        margin-top: 10px;
+    }
+    to {
+        margin-top: 20px;
+    }
+}
